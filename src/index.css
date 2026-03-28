@@ -1,0 +1,18 @@
+/* src/index.css */
+body {
+  background-color: #0a0a0c; /* 极深的夜空黑 */
+  color: #e0e0e0; /* 档案纸张的灰白色 */
+  margin: 0;
+  min-height: 100vh;
+  /* 使用经典的等宽打字机字体，极具侦探卷宗感 */
+  font-family: "Courier New", Courier, monospace; 
+}
+
+/* 美化一下滚动条 */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #333; 
+  border-radius: 4px;
+}
